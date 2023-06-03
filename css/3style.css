@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-image: url(../images/bg2.png);
+	background-position:right -20px;
+     background-size: cover;
+     background-attachment: fixed;/* 使背景固定，不随滚动条的滚动而移动 */
+}
+
+table {
+    border-collapse: collapse;
+    width:80%;
+    font-size: 16px;
+    margin:auto;
+}
+
+table, td, th {
+    border: 0.5px solid gray;
+}
+td{
+    padding: 5px;
+}
+img{
+    text-align: center;
+}
+#cat1,#cat2,#cat3,#cat4,#cat5{
+    width:70%;
+    background-color: rgba(255,255,255,0.4);
+    margin:20px auto;
+    padding:10px;  /* 采用盒模型布局 */
+}

@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-image: url(../images/bg2.png);
+	background-position:right -20px;
+     background-size: cover;/*1440px 1024px;  */
+     background-attachment: fixed;/* 使背景固定，不随滚动条的滚动而移动 */
+}
+
+#pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8,#pic9,#pic10,#pic11,#pic12{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 140px;
+    height: 120px;
+}
+h1{
+    text-align: center;
+}
+.cat{
+    width:40%;
+    float:left;
+    margin-left: 30px;
+}
+.pics1{
+    margin-top: 10%; 
+    margin-left: 20%;
+    position: relative;  /* 相对定位 */
+}
+
+#pic2{
+    position:absolute;/* 绝对定位 */
+    left:45%;  
+    top:-5px;
+}
+.pics2{
+    margin-left: 12%; 
+    margin-top: 5%;
+    position: relative;/* 相对定位 */
+}
+
+#pic4{
+    position:absolute;/* 绝对定位 */
+    left:40%;  
+    top:10px;
+}
+
+.pics3{
+    margin-left: 9%; 
+    margin-top: 4%;
+    position: relative;/* 相对定位 */
+}
+
+#pic6{
+    position:absolute;/* 绝对定位 */
+    left:37%; 
+    top:20px;
+}
+#pic7{
+    position:absolute;/* 绝对定位 */
+    left:73%;  
+    top:10px;
+}
+
+.pics4{
+    margin-left: 25%; 
+    margin-top: 7%;
+    position: relative;/* 相对定位 */
+}
+
+#pic9{
+    position:absolute;/* 绝对定位 */
+    left:45%; 
+    top:10px;
+}
+
+.dog{
+    float:right;
+    width:40%;
+    margin-right: 5%;
+}
+
+.pics5{
+    margin-left: 10%;
+    position: relative;/* 相对定位 */
+    
+}
+#pic10{
+    position: absolute;/* 绝对定位 */
+    top:60px;
+
+}
+
+#pic11{
+    position: absolute;
+    top:150px;
+    left:300px;
+}
+
+#pic12{
+    position: absolute;
+    top:300px;
+    left:160px;
+}

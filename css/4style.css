@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-image: url(../images/bg2.png);
+	background-position:right -20px;
+     background-size: cover;/*1440px 1024px;  */
+}
+.main{
+    width:65%;
+    height:500px;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;/* 首先main是盒模型 */
+}
+table {
+    border-collapse:collapse;
+    font-size: 16px;
+    margin:auto;
+}
+.table1{
+    width:30%;
+    float:left; /*两个表格采用浮动布局 */
+}
+.table2{
+    width:55%;
+    float:right;
+}
+table, td, th {
+    border: 0.5px solid gray;
+}
+td{
+    padding: 5px;
+    text-align: center;
+    vertical-align: auto;
+}
+img{
+    text-align: center;
+}
+aside{
+    position:absolute;
+    top:45%;
+    left: 0;
+     width:15%;/*边栏采用绝对定位 */
+}
+p{
+    font-family: FZShuTi;
+    font-size: 25px;
+    color:tomato;
+    text-shadow: 2px 2px 2px #ccc;
+}
+footer{
+    position:fixed;/*固定定位，原地不动 */
+    bottom:3%;
+    right:5%;
+    font-size: 30px;
+    font-family: STXingkai;
+    color:chocolate;
+}

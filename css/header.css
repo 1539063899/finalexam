@@ -1,0 +1,42 @@
+header{
+    height: 60px;
+    width:100%;
+}
+#logo2{
+   margin-left:2%;
+}
+#inner1{
+   float: left;
+   width:45%;
+   height:60px;
+    opacity: 40%; 
+}
+nav{
+   display: inline;
+   float: right;
+   width:50%;
+}
+ul {
+   list-style-type: none;
+   margin:0 0 0 0 ;
+   padding: 0 0 12px 0;
+   overflow: hidden;
+  
+}
+li{
+   display:inline;
+   float:left;
+}
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 0 15px 12px 15px;
+   text-decoration: none;
+   margin-left: 30px;
+   font-size: 35px;
+}
+
+li a:hover:not(.active) {
+   background-color: #ddd;
+}

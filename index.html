@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/c/font_4058696_ue26ik1a8fl.css">
+    <link rel="stylesheet" href="./css/1style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <title>首页</title>
+    <script>
+        
+        count=0;
+        function showAdv(){
+            let obj = document.getElementById("adv");  
+            obj.innerHTML = "<img src = 'images/adv" + count + ".png' width='100%' height='100%'/>"
+            count = (count+1) % 3;  
+            setTimeout("showAdv()", 2000);  
+  }   
+        var x;
+        function showTime(){
+            let objTime = new Date();
+            let str = objTime.getHours() + ":" + objTime.getMinutes() + ":" + objTime.getSeconds();
+            document.getElementById("now").innerHTML = str;
+            setTimeout("showTime()", 1000);
+        }
+    </script>
+</head>
+<body onload="showAdv();showTime();">
+        <header>
+        <div id="inner1">
+            <span id="logo1"><img src="./images/logo.png" width="40%" height="55" alt=""></span>
+            <span id="logo2"><img src="./images/logo2.png" width="40%" height="55" alt=""></span>
+        </div>    
+        <nav>
+           <ul class="list">
+				<li><a href="./index.html" target="_blank"><i class="iconfont icon-shouye">&nbsp&nbsp首页</i></a></li>
+				<li><a href="./index2.html" target="_blank"><i class="iconfont icon-xinxi">&nbsp&nbsp动物图鉴</i></a></li>
+				<li><a href="./index3.html" target="_blank"><i class="iconfont icon-jilu">&nbsp&nbsp猫咪档案</i></a></li>
+				<li><a href="./index4.html" target="_blank"><i class="iconfont icon-lianxiwomen">&nbsp&nbsp关于自己</i></a></li>
+			</ul>         
+    </nav>
+</header>
+<div id = "adv"></div> 
+<article>与爱同行<br>欢迎来到我和猫的日记</article>
+</body>
+<footer id="now">
+</footer>
+</html>
